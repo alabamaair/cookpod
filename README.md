@@ -1,5 +1,9 @@
 # Cookpod
 
+[![codebeat badge](https://codebeat.co/badges/18604fef-321b-40ab-b30e-612e91f68dad)](https://codebeat.co/projects/github-com-alabamaair-cookpod-master)
+[![codecov](https://codecov.io/gh/alabamaair/cookpod/branch/master/graph/badge.svg)](https://codecov.io/gh/alabamaair/cookpod)
+![Elixir CI](https://github.com/alabamaair/cookpod/workflows/Elixir%20CI/badge.svg)
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
