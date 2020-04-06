@@ -1,0 +1,5 @@
+h1 <%= gettext "Terms and conditions" %>
+
+p
+  |
+  	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh ligula, ullamcorper non erat sit amet, aliquam sollicitudin massa. In ante mi, mattis nec mi vel, malesuada condimentum quam. Integer quis euismod tellus. Vivamus mollis felis ut hendrerit porttitor. Vivamus et felis fermentum, convallis dui ut, suscipit est. Phasellus scelerisque, metus vitae varius dapibus, lacus arcu finibus massa, vitae pretium neque nunc vitae elit. Aenean ultricies sed libero eget fermentum. Maecenas pulvinar, libero rhoncus sollicitudin blandit, diam sem faucibus elit, ac malesuada ipsum urna eu purus. Morbi efficitur fringilla dui, at blandit elit aliquet et. Integer elementum consequat erat, vitae hendrerit mi dictum nec. Maecenas ut justo tellus. Etiam quam justo, fermentum sed eleifend vitae, suscipit a tortor. Curabitur et sem dignissim, dictum quam eget, malesuada turpis. 
