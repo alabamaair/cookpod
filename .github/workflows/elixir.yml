@@ -28,4 +28,7 @@ jobs:
           elixir-version: 1.10.2
       - run: mix deps.get
       - run: mix format --check-formatted
+      - run: mix coveralls.json
       - uses: codecov/codecov-action@v1
+        with:
+            file: cover/excoveralls.json
