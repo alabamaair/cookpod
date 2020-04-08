@@ -15,5 +15,13 @@ config :cookpod, Cookpod.Repo,
   password: "postgres",
   database: "cookpod_test",
   hostname: "db",
-  # pool: Ecto.Adapters.SQL.Sandbox
-  pool_size: 10
+  pool: Ecto.Adapters.SQL.Sandbox
+
+# Configure the database for GitHub Actions
+if System.get_env("GITHUB_ACTIONS") do
+  config :cookpod, Cookpod.Repo,
+    username: "postgres",
+    password: "postgres",
+    database: "cookpod_test",
+    hostname: "localhost"
+end
